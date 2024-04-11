@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav {
+    padding-top: 15px;
+    font-size: 23px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-style: italic;
+}
+
+span {
+    font-weight: bolder;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .right li {
+    list-style: none;
+    display: inline;
+    word-spacing: 25px;
+    letter-spacing: 0px;
+}
+
+nav .right {
+    padding-right: 7px;
+}
+
+.right .rigt {
+    padding-left: 500px;
+}
+
+nav .str button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    color: white;
+    border-radius: 23px;
+    background-color: rgb(55, 183, 247);
+    height: 30px;
+    text-align: left;
+    border: 0px;
+    /* width: 70px; */
+}
+
+main {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-top: 50px;
+    display: grid;
+    position: relative;
+}
+
+.btn button {
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(55, 183, 247);
+    height: 30px;
+    text-align: left;
+    border: 0px;
+    padding-left: 35px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 32px;
+}
+
+.img1 img {
+    position: relative;
+    padding-left: 370px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 800px;
+}
+
+.lst {
+    font-size: small;
+    padding-top: 185px;
+    position: absolute;
+    padding-left: 0px;
+    display: grid;
+}
+
+.fr1 {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 230px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.lorem {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 230px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    padding-left: 170px;
+}
